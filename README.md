@@ -26,7 +26,16 @@ The next step is set up your application. In your project folder open *index.php
 
 ```
 
-Next we must write basic settings of our project.
+Next we must write some basic settings of our project.
+
+```php
+
+    $settings = [
+        'appName' => 'Template',
+        'baseTemplate' => 'View/template.php'
+    ];
+
+```
 
 - [x] appName is the name of your project
 - [x] baseTemplate is the base view of your site, like base style of the every page. In this file you can write your own header and footer.
