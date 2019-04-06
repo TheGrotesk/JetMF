@@ -9,6 +9,10 @@ Micro framework for creating simple and fast sites.
 ## **Installing**
 
 First of all download this repository.
+```
+  git clone https://github.com/TheGrotesk/phpGame.git
+
+```
 The next step is set up your application. In your project folder open *index.php* - the main file of your project.
 
 **index.php**
