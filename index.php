@@ -5,7 +5,7 @@
     require('autoload.php');
 
     $settings = [
-        'appName' => 'Guardians',
+        'appName' => 'Template',
         'baseTemplate' => 'View/template.php'
     ];
 
