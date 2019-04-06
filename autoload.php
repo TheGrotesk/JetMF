@@ -1,7 +1,7 @@
 <?php
 
     $autoload = [
-      'Controllers/',
+      __DIR__.'core/',
     ];
 
     for($i = 0; $i < count($autoload); $i++) {
