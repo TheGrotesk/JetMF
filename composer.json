@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "jet-mf/": "dev-master"
+        "jet-mf/": "v0.0.1"
     }
 }
