@@ -6,18 +6,11 @@
 
     $settings = [
         'appName' => 'Guardians',
+        'baseTemplate' => 'View/template.php'
     ];
 
     $app = new Application($settings);
 
-    $app->get('/', function(){
-          print("heloo");
-    });
-
-    $app->get('/main', function(){
-        print("main");
-    });
-
-    echo $app->settings['appName'];
+    include('routes.php');
 
 ?>
