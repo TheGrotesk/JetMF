@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/TheGrotesk/JetMF.git"
+        }
+    ],
+    "require": {
+        "jet/": "dev-master"
+    }
+}
