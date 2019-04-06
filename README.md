@@ -2,6 +2,10 @@
 
 Micro framework for creating simple and fast sites.
 
+- [x] very fast
+- [x] easy to use
+- [x] open source
+
 ## **Installing**
 
 First of all download this repository.
