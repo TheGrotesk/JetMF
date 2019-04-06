@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "jet-mf/": "dev-master"
+        "jet-mf/jet-micro-framework": "dev-master"
     }
 }
