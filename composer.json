@@ -1,5 +1,5 @@
 {
-    "name":"jet-micro-framework",
+    "name":"jet/jet-micro-framework",
     "repositories": [
         {
             "type": "vcs",
