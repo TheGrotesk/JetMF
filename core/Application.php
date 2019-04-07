@@ -10,7 +10,7 @@
                 $this->settings = $new;
                 if($this->routes == 0)
                 {
-                  $this->render('','welcomePage.html');
+                  $this->render('','../resourse/welcomePage.html');
                 }
           }
 

@@ -5,7 +5,7 @@
     <title>Welcome to Jet!</title>
   </head>
   <body style="padding:20px;">
-      <h1>Jet Micro Framework</h1>
+      <h1><img src="img/jetLogo.png">Jet Micro Framework</h1>
       <p>Welcome to Jet! Your application works fine!</p>
       <h5>Links</h5>
       <a href="https://github.com/TheGrotesk/JetMF">GitHub</a>
