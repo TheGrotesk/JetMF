@@ -14,6 +14,10 @@
               if($_SERVER['REQUEST_URI'] == $request)
               {
                   call_user_func($func);
+              }else
+              {
+                  throw new \Exception("404! Page not found!", 1);
+
               }
           }
 
