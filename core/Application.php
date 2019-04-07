@@ -21,13 +21,26 @@
           {
               if(array_key_exists('baseTemplate', $this->settings))
               {
-                  require_once($class);
-                  require_once($this->settings['baseTemplate']);
-                  
+                  if(file_exists($class) && file_exists($this->settings['baseTemplate']))
+                  {
+                    require_once($class);
+                    require_once($this->settings['baseTemplate']);
+                  }else
+                  {
+                    throw new \Exception("Class or view not found (base)", 1);
+
+                  }
               }else
               {
-                require_once($class);
-                require_once($view);
+                if(file_exists($class) && file_exists($view))
+                {
+                  require_once($class);
+                  require_once($view);
+                }else
+                {
+                  throw new \Exception("Class or view not found (custom)", 1);
+                }
+
               }
           }
     }
