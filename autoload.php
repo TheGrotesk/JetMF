@@ -19,7 +19,7 @@
       }
       else
       {
-        throw new \Exception("Error while loading file or directory '{$autload[$i]}'", 1);
+        throw new \Exception("Error while loading file or directory '{$autoload[$i]}'", 1);
 
       }
     }
