@@ -6,7 +6,11 @@
             "url": "https://github.com/TheGrotesk/JetMF.git"
         }
     ],
+    "license": [
+       "LGPL-2.1-only",
+       "GPL-3.0-or-later"
+    ],
     "require": {
-        "jet-mf/jet-micro-framework": "v0.0.1"
+        "jet-mf/jet-micro-framework": "dev-master"
     }
 }
