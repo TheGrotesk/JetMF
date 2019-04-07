@@ -8,7 +8,7 @@
           function __construct($new)
           {
                 $this->settings = $new;
-                if($routes == 0)
+                if($this->routes == 0)
                 {
                   $this->render('','welcomePage.html');
                 }
