@@ -3,10 +3,15 @@
     class Application{
 
           public $settings = [];
+          private $routes;
 
           function __construct($new)
           {
                 $this->settings = $new;
+                if($routes == 0)
+                {
+                  $this->render('','welcomePage.html');
+                }
           }
 
           function get($request, $func)
@@ -14,6 +19,7 @@
               if($_SERVER['REQUEST_URI'] == $request)
               {
                   call_user_func($func);
+                  $this->routes += 1;
               }
           }
 
