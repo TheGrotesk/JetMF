@@ -1,0 +1,29 @@
+[
+    {
+        "name": "jet-mf/jet-micro-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TheGrotesk/JetMF.git",
+            "reference": "d661a8fe7c2c925dc6d334c4554247749aa59455"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TheGrotesk/JetMF/zipball/d661a8fe7c2c925dc6d334c4554247749aa59455",
+            "reference": "d661a8fe7c2c925dc6d334c4554247749aa59455",
+            "shasum": ""
+        },
+        "require": {
+            "jet-mf/jet-micro-framework": "dev-master"
+        },
+        "time": "2019-04-07T10:14:56+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-only",
+            "GPL-3.0-or-later"
+        ]
+    }
+]

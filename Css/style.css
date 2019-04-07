@@ -1,0 +1,30 @@
+html,body{
+    padding:0px;
+    margin:0px;
+    max-height: 100%;
+}
+
+.header{
+  width:100%;
+  height:50px;
+  background-color:lightgrey;
+}
+
+.footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:150px;
+  background-color:lightgrey;
+}
+
+.footer label{
+  font-size: 10px;
+  position: absolute;
+  right:5px;
+}
+.footer li > a{
+  color:black;
+  outline:none;
+  font-size:12px;
+}
