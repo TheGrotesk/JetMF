@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c561aa0d9483ac591a57e16564269d8b",
+    "packages": [
+        {
+            "name": "jet-mf/jet-micro-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheGrotesk/JetMF.git",
+                "reference": "d661a8fe7c2c925dc6d334c4554247749aa59455"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheGrotesk/JetMF/zipball/d661a8fe7c2c925dc6d334c4554247749aa59455",
+                "reference": "d661a8fe7c2c925dc6d334c4554247749aa59455",
+                "shasum": ""
+            },
+            "require": {
+                "jet-mf/jet-micro-framework": "dev-master"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only",
+                "GPL-3.0-or-later"
+            ],
+            "time": "2019-04-07T10:14:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "jet-mf/jet-micro-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

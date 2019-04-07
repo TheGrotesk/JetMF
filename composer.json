@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jet-mf/jet-micro-framework": "dev-master"
+    }
+}
