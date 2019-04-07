@@ -1,7 +1,7 @@
 <?php
 
     $autoload = [
-      __DIR__.'core/',
+      __DIR__.'/core/',
     ];
 
     for($i = 0; $i < count($autoload); $i++) {
