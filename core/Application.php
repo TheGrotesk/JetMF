@@ -3,7 +3,6 @@
     class Application{
 
           public $settings = [];
-          private $routes;
 
           function __construct($new)
           {
