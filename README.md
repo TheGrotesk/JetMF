@@ -8,9 +8,9 @@ Micro framework for creating simple and fast sites.
 
 ## **Installing**
 
-First of all download this repository.
+First of all install this repository via composer.
 ```
-  git clone https://github.com/TheGrotesk/phpGame.git
+  composer require jet-mf/jet-micro-framework
 
 ```
 The next step is set up your application. In your project folder open *index.php* - the main file of your project.
